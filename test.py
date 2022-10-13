@@ -4,9 +4,10 @@ import numpy as np
 def nothing(x):
     pass
 
-vid = cv2.VideoCapture(0)
-# Load image
-h, image = vid.read()
+# vid = cv2.VideoCapture(0)
+# # Load image
+# h, image = vid.read()
+image = cv2.imread("rubiks1.png")
 
 # Create a window
 cv2.namedWindow('image')
